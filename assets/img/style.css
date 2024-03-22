@@ -1,0 +1,25 @@
+body
+.titulo {
+    color: blanchedalmond;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid rgb(198, 238, 133);
+    text-align: center;
+}
+/*etiqueta de css*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; /*4 costados*/
+    background-color: aquamarine; /*fondo de las etiquetas*/
+}
+li{
+    display: inline;
+    margin-left: 25px;
+    font-size: 15px;
+}
+li a {
+    text-decoration: none;
+    color:rgb(148, 119, 230);
+}
+
