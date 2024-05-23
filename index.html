@@ -1,55 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria de preciosidad</title>
-   <!-- <link rel="stylesheet" href="./assets/img/style.css">-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-     rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
-      crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>"
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <title>Luffytaro - Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!--Menú-->
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-             <a class="nav-link" href="index.html"><img src="./assets/img/icon/home.png" alt=""width="20px">
-            </a>
-            </li>         
-            <li class="nav-item"> <a class="nav-link" href="Galeria.html">GALERIA</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="Contacto.html">CONTACTO</a> </li>
-        </ul>
-    </nav>
-    <h1 class="text-bg-info p-3 text-center">Nico Robin</h1>
-    <!--<h1 style="color: aquamarine;"> Mi Imagen</h1>-->
-   <!-- <img src="./assets/img/robinfu1.jpg_554688468.webp" alt="Cargando..." width="800px">-->
-                                                 <!--Carrusel--> 
-   <section>
-       
-        <div class="carousel slide" data-ride="carousel" id="carousel-principal">            
-        <div class="carousel-inner"> 
-            <div class="carousel-item active">
-            <img class="d-block w-50 mx-auto" src="assets/img/carousel/23fbdd2b7896710d57cee508a62feae2.jpg" alt="Primera Imagen"><!--db-block para bloquear wd-100 aumenta en 25-->
+    <div id="menu-principal"></div>
+
+    <div class="main-content d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-50" src="/assets/img/carousel/9803455aa0228b1d649f1d2ae8d0b97f.jpg" alt="Segunda Imagen">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/carrusel/funko-pop-700-leorio-hunter-x-hunter-anime-.jpg" class="d-block w-100" alt="Hunter x Hunter - Leorio">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Hunter x Hunter</h5>
+                        <p>Leorio Funko Pop</p>
+                    </div>
                 </div>
-            <div class="carousel-item">
-                <img class="d-block w-50" src="/assets/img/carousel/images.jpg alt=" alt="Tercera Imagen">
+                <div class="carousel-item">
+                    <img src="./assets/img/carrusel/funko-pop-animation-attack-on-titan-battle-levi-exclusive-figure-1169-1.jpg" class="d-block w-100" alt="Attack on Titan - Battle Levi">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Attack on Titan</h5>
+                        <p>Battle Levi Funko Pop</p>
+                    </div>
                 </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrusel/FUNKO-POP-ANIMATION-ATTACK-ON-TITAN-EREN-YEAGER-800x800.jpeg" class="d-block w-100" alt="Attack on Titan - Eren Yeager">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Attack on Titan</h5>
+                        <p>Eren Yeager Funko Pop</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrusel/funko-pop-animation-jujutsu-kaisen-yuji-itadori-divergent-fist-glow-in-the-dark-aaa-exclusivo.jpg" class="d-block w-100" alt="Jujutsu Kaisen - Yuji Itadori">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Jujutsu Kaisen</h5>
+                        <p>Yuji Itadori Funko Pop</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrusel/funko-pop-anime-one-piece-luffy-gear-five.jpg" class="d-block w-100" alt="One Piece - Luffy Gear Five">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>One Piece</h5>
+                        <p>Luffy Gear Five Funko Pop</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrusel/funko-pop-carrot-1588-one-piece.jpg" class="d-block w-100" alt="One Piece - Carrot">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>One Piece</h5>
+                        <p>Carrot Funko Pop</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrusel/gsc_117433030_1775973_1.avif" class="d-block w-100" alt="Good Smile Company - Figure 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Boku no hero</h5>
+                        <p>Eri</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrusel/gsc_118263350_2033732_1.avif" class="d-block w-100" alt="Good Smile Company - Figure 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Jujutsu Kaisen</h5>
+                        <p>Yuji Itadori Funko Pop</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrusel/gsc_127049780_4790951_1.avif" class="d-block w-100" alt="Good Smile Company - Figure 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Jujutsu Kaisen</h5>
+                        <p>Mahito</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrusel/gsc_129550971_5633350_1.avif" class="d-block w-100" alt="Good Smile Company - Figure 4">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Hunter x Hunter</h5>
+                        <p>Killua</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrusel/pop-naruto-sakura6948.jpg" class="d-block w-100" alt="Naruto - Sakura">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Naruto</h5>
+                        <p>Sakura Funko Pop</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrusel/s-l1200.jpg" class="d-block w-100" alt="Figure 5">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>One Piece</h5>
+                        <p>Zoro Roronoa</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
         </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-    </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <img src="./assets/img/logos/Screenshot_1-removebg-preview.png" alt="Luffytaro" class="footer-logo">
+            <h1> </h1>
+            <span>Luffytaro - 2024</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/navbar.js"></script>
 </body>
+</html>
